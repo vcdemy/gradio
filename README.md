@@ -4,7 +4,17 @@ gradio是什麼？
 
 * gradio是一個讓使用者可以快速替程式建立介面讓別人可以從網路上使用該程式的套件。
 
-gradio怎麼使用？
+gradio官網
+
+* [gradio官網](https://gradio.app/)
+
+gradio安裝
+
+```bash
+pip install gradio
+```
+
+gradio基本使用
 
 ```python
 import gradio as gr
@@ -14,7 +24,6 @@ gr.Interface(fn, inputs, outputs).launch()
 # outputs: 你的函式的輸出
 ```
 
-* [gradio官網](https://gradio.app/)
 
 基礎：
 
