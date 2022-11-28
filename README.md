@@ -24,7 +24,6 @@ gr.Interface(fn, inputs, outputs).launch()
 # outputs: 你的函式的輸出
 ```
 
-
 基礎：
 
 * 基本使用
